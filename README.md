@@ -1,18 +1,5 @@
 # HighlightSwift 🎨
 
-![](https://img.shields.io/github/v/release/appstefan/highlightswift)
-![](https://img.shields.io/github/license/appstefan/highlightswift)
-[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fappstefan%2FHighlightSwift%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/appstefan/HighlightSwift)
-[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fappstefan%2FHighlightSwift%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/appstefan/HighlightSwift)
-
-Code Syntax Highlighting in Swift and SwiftUI
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/appstefan/HighlightSwift/assets/6455394/b95f08cd-613a-42c1-8fae-3ab62e477ebe">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/appstefan/HighlightSwift/assets/6455394/fd9c69df-1efa-47ec-a753-599346cd1ca2">
-  <img alt="CodeCardDemo" src="https://github.com/appstefan/HighlightSwift/assets/6455394/fd9c69df-1efa-47ec-a753-599346cd1ca2" width=325>
-</picture>
-
 ## Contents
 
 #### `Highlight`
@@ -175,10 +162,10 @@ targets: [
 
 ## Author
 
-Stefan, thrower_ranges.0d@icloud.com
+Fork of https://github.com/andriy-foreflight/HighlightSwift
 
 ## License
 
-HighlightSwift is available under the MIT license. See the [LICENSE.md](/LICENSE.md) file.
+[HighlightSwift](https://github.com/andriy-foreflight/HighlightSwift) is available under the MIT license. See the [LICENSE.md](/LICENSE.md) file.
 
 Highlight.js is available under the BSD license. See the [LICENSE.md](/Sources/HighlightSwift/HighlightJS/LICENSE.md) file.
