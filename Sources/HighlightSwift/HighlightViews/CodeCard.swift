@@ -19,6 +19,7 @@ public struct CodeCard: View {
     var highlightResult: HighlightResult?
     
     let text: String
+    let language: String
     let initialTextStyle: Font.TextStyle
     let initialStyleName: HighlightStyle.Name
     
@@ -27,10 +28,14 @@ public struct CodeCard: View {
     ///   - text: The plain text code to highlight.
     ///   - style: The initial highlight color style (default: .xcode).
     ///   - textStyle: The initial font text style (default: .caption2).
-    public init(_ text: String,
-                style: HighlightStyle.Name = .xcode,
-                textStyle: Font.TextStyle = .caption2) {
+    public init(
+        _ text: String,
+        language: String = "swift",
+        style: HighlightStyle.Name = .xcode,
+        textStyle: Font.TextStyle = .caption2
+    ) {
         self.text = text
+        self.language = language
         self.initialStyleName = style
         self.initialTextStyle = textStyle
         self._styleName = State(initialValue: style)
@@ -45,7 +50,7 @@ public struct CodeCard: View {
                 .onTapGesture(count: 2, perform: resetStyle)
                 .onTapGesture(perform: toggleShowButtons)
             HStack {
-                CodeText(text, style: styleName) { highlightResult in
+                CodeText(text, language: language, style: styleName) { highlightResult in
                     withAnimation {
                         self.highlightResult = highlightResult
                     }
