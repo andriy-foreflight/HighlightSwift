@@ -150,7 +150,7 @@ CodeCard(code, style: .paraiso, textStyle: .caption)
 In `Package.swift` add this repository as a dependency:
 ```swift
 dependencies: [
-    .package(url: "https://github.com/appstefan/highlightswift.git", from: "1.0.0")
+    .package(url: "https://github.com/andriy-foreflight/highlightswift.git", from: "1.0.0")
 ],
 targets: [
     .target(
@@ -162,7 +162,7 @@ targets: [
 
 ## Author
 
-Fork of https://github.com/andriy-foreflight/HighlightSwift
+Fork of [HighlightSwift](https://github.com/appstefanHighlightSwift)
 
 ## License
 
