@@ -1,4 +1,4 @@
-struct HLJSResult {
+struct HighlightJSResult {
     let value: String
     let illegal: Bool
     let language: String
